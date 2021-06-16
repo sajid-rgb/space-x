@@ -1,0 +1,25 @@
+
+@media (max-width: 700px){
+    .spaces{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+}
+@media(min-width:701px) and (max-width:1024px){
+    .spaces{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+  
+}
+@media(min-width:1025px){
+    .spaces{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+}

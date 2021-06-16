@@ -1,0 +1,54 @@
+.space{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.space-card-img{
+  padding: 0;
+  background-color:whiteSmoke;
+}
+img{
+  width: 100%;
+}
+.space-name{ 
+  margin-top: 20px;
+  color:cadetblue;
+  font-weight:bold;
+  font-size:25px;
+}
+.space-info-div span{
+  text-align: left;
+  font-weight: bold;
+  font-size:15px;
+}
+.space-card{
+  padding:20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px){
+  .space{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding:15px;
+  }
+  .space-card img{
+    width:70%;
+    margin-left:30px;
+  }
+  .space-card{
+    padding:30px;
+    background-color: white;
+  }
+  
+  .space-name{
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .launch-false-button{ 
+    margin-top: 20px;
+    
+  }
+
+}
